@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  margin: 100px;
+  margin: 300px;
 }
 
 section{
@@ -18,10 +18,17 @@ header {
   text-align: center;
   background: #8d8a8a;
   color: #9794cc;
-  font-size: 30px;
+  font-size: 40px;
   image-resolution: ;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
 
 li {
   display: inline;
@@ -36,38 +43,14 @@ ul {
   padding-top: 20px;
 }
 
-
-.card {
-  padding: 10px;
-  width: 250px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.card header {
-  padding: 20px;
-  background: #13293d;
-  color: #fff;
-}
-
-.card img {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  margin: 20px;
-  padding: 20px;
-  border: 9px solid darkblue;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
-}
-
 .column {
   float: left;
   width: 50%;
   padding: 40px;
+}
+
+.column:hover {
+  box-shadow: 0 16px 32px 0 rgb(0, 0, 0)
 }
 
 .row:after {
@@ -76,10 +59,57 @@ ul {
   clear: both;
 }
 
-@media screen and (max-width: 800px) {
-  .column
+.main-project {
+  display: inline-flexbox;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: rgba(53, 53, 49, 0.625);
+  padding: 40px;
+}
+
+.main-project:hover {
+    box-shadow: 0 16px 32px 0 rgb(0, 0, 0)
+}
+
+@media screen and (max-width: 500px) {
+  .column {
     width: 100%;
-    padding: 0;
+    padding: 40px;
   }
 }
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #683377;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #b013ff;
+}
+
+.container {
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: #0704032c;
+  padding: 20px;
+  width: 400px
+  
+}
