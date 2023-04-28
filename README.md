@@ -5,8 +5,9 @@ This project showcases the projects I've worked on as well as a demonstration of
 
 ## Visuals
 The following screenshot shows a preview of the website's functionality. Clicking on one of the three section names within the Navigation Bar will auto-scroll you to that specific section of the portfolio.
-
-![Screenshot 2023-04-27 184745](https://user-images.githubusercontent.com/130110404/235029543-422ed748-7224-4680-86b1-ccf8848fd966.png)
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/130110404/235029543-422ed748-7224-4680-86b1-ccf8848fd966.png" width="400px"</img> 
+</div>
 
 ## Installation
 Click on an individual section in the top navigation bar to auto-scroll to that specific section of the website. Click on the image under a specific project to be directed to a live URL of that specific application. To contact me, fill out the form under the "Contact Me" section with your first name, last name, and message. Remember to click the "Submit" button when finished.
