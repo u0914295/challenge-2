@@ -5,6 +5,7 @@ This project showcases the projects I've worked on as well as a demonstration of
 
 ## Visuals
 The following screenshot shows a preview of the website's functionality. Clicking on one of the three section names within the Navigation Bar will auto-scroll you to that specific section of the portfolio.
+
 ![Screenshot 2023-04-27 184745](https://user-images.githubusercontent.com/130110404/235029543-422ed748-7224-4680-86b1-ccf8848fd966.png)
 
 ## Installation
